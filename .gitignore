@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Secrets
+.env
+kaggle.json
+access_token
+
+# Data and training outputs
+data/
+cxr/
+runs/
+*.zip
+
+# Model weights (large; use Git LFS or GitHub Releases instead)
+*.pt
+*.pth
+!models/.gitkeep
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
