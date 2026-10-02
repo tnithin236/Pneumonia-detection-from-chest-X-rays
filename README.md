@@ -4,6 +4,9 @@ Fine-tuned a YOLO classification CNN (transfer learning) to detect pneumonia fro
 
 > ⚠️ Educational/portfolio project. Not a medical device and not for clinical use.
 
+<img width="1917" height="1016" alt="Screenshot 2026-10-02 214021" src="https://github.com/user-attachments/assets/b3444653-7617-40e5-8a74-0a1d1c897d9c" />
+
+
 ## Features
 - Transfer learning with `yolov8x-cls` on the Kaggle Chest X-Ray Pneumonia dataset
 - Proper train/val/test split (the dataset's 16-image val folder is replaced by a re-split)
